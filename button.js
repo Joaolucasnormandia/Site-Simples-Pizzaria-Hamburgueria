@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     window.onscroll = function() {
         if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-            mybutton.classList.add("show"); // Mostra o botão com fade
+            mybutton.classList.add("show"); 
         } else {
-            mybutton.classList.remove("show"); // Esconde o botão com fade
+            mybutton.classList.remove("show"); 
         }
     };
 
